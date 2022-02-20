@@ -7,7 +7,7 @@ const prefix = '!'
 
 //起動時に実行
 client.on('ready', () => {
-  console.log('起動完了！。');  
+  console.log('起動完了！');  
 });
 
 //メッセージ送信時に実行
