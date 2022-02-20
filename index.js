@@ -4,6 +4,12 @@ const { Client, Intents, MessageEmbed } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });  
 //コマンドのPREFIXを指定
 const prefix = '!'
+//次回の常時稼働に必要
+const http = require('http');
+http.createServer(function (req, res) {
+  res.write("online");
+  res.end();
+}).listen(8080);
 
 //起動時に実行
 client.on('ready', () => {
