@@ -23,7 +23,7 @@ client.on('messageCreate', message => {
   } else if (message.content === `${prefix}help`) {
     const embed = new MessageEmbed()
      .setTitle('help')
-     .setDescription('コマンド一覧を掻くといいです')
+     .setDescription('コマンド一覧を書くといいです')
     message.channel.send({embeds: [embed]})
   }
 });
