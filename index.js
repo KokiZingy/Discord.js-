@@ -18,9 +18,9 @@ client.on('ready', () => {
 
 //メッセージ送信時に実行
 client.on('messageCreate', message => {
-  if (message.content === 'こんにちは') {
+  if (message.content == 'こんにちは') {
     message.channel.send('こんにちは～')
-  } else if (message.content === `${prefix}help`) {
+  } else if (message.content == `${prefix}help`) {
     const embed = new MessageEmbed()
      .setTitle('help')
      .setDescription('コマンド一覧を書くといいです')
