@@ -1,5 +1,6 @@
 # Discord.js Sample Code
 Discord.jsBot作成Part2 用の サンプルコードです
+⚠このコードはv13用です。
 
 ## 動画・使用方法
 https://youtu.be/W-eL72qocjo
