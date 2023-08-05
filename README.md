@@ -6,4 +6,4 @@ Discord.jsBot作成Part2 用の サンプルコードです<br>
 https://youtu.be/W-eL72qocjo
 
 ## Discord.js Bot作成 再生リスト
-https://www.youtube.com/watch?v=vrsqFxX4Yy0&list=PLOBskKzckfonp84llmkKQIUnNnuozEZSj
+https://www.youtube.com/playlist?list=PLOBskKzckfonp84llmkKQIUnNnuozEZSj
